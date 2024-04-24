@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_about.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_beef_burger.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_cart_final.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_checkout.xml" value="0.25" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_chicken_burger.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_confirmed_cart_rvadapter.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_hot_dog.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_kebab.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_login.xml" value="0.1953125" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_product.xml" value="0.25" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_product_activty.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_purchase.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_sosis.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/activity_tracking.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/cart_tableview.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/dialog_enteremail.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/dialog_enterpaymentid.xml" value="0.2046875" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/finalcart_listview.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/invoice_listview.xml" value="0.22" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/menu_gridview.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/layout/nav_header.xml" value="0.209375" />
+        <entry key="..\:/Users/Test Laptop/AndroidStudioProjects/Burgernezz3/app/src/main/res/menu/navigation_menu.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

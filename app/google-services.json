@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1071878711267",
+    "firebase_url": "https://burgernezz-test-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "burgernezz-test",
+    "storage_bucket": "burgernezz-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071878711267:android:6a2886c2d8f34d9261a2d6",
+        "android_client_info": {
+          "package_name": "com.ekositanggang.burgernezz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071878711267-afug91qai5k999vb5t33n7nstaloo379.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2XerH2KS7vP9edhangMZtN1UaYtiQjjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071878711267-afug91qai5k999vb5t33n7nstaloo379.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071878711267:android:dc88980fbfb76f2b61a2d6",
+        "android_client_info": {
+          "package_name": "com.example.burgernezz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071878711267-afug91qai5k999vb5t33n7nstaloo379.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2XerH2KS7vP9edhangMZtN1UaYtiQjjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071878711267-afug91qai5k999vb5t33n7nstaloo379.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071878711267:android:1e06f7bd80f5f8ef61a2d6",
+        "android_client_info": {
+          "package_name": "com.example.burgernezz_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071878711267-afug91qai5k999vb5t33n7nstaloo379.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2XerH2KS7vP9edhangMZtN1UaYtiQjjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071878711267-afug91qai5k999vb5t33n7nstaloo379.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

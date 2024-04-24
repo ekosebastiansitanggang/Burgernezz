@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/burgernezz_yellow"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/img_about_app"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/burgernezz_logo"
+        android:cropToPadding="true"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_about_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_burgernezz"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/img_about_app"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_anotherway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/other_availabilty"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/text_about_app"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/GoFood"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/gofood_logo"
+        android:background="@drawable/roundcorner"
+        android:scaleType="fitCenter"
+        android:padding="5dp"
+        android:backgroundTint="#00AA13"
+        android:contentDescription="@string/GoFood"
+        app:layout_constraintTop_toBottomOf="@id/text_anotherway"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/GrabFood"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/grabfood_logo"
+        android:background="@drawable/roundcorner"
+        android:scaleType="fitCenter"
+        android:padding="5dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/GrabFood"
+        app:layout_constraintTop_toBottomOf="@id/GoFood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/shopeeFood"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/shopeefood_logo"
+        android:background="@drawable/roundcorner"
+        android:scaleType="fitCenter"
+        android:padding="5dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/shopeeFood"
+        app:layout_constraintTop_toBottomOf="@id/GrabFood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

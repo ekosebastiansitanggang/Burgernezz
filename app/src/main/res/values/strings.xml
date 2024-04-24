@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Burgernezz</string>
+    <string name="nav_open">Buka</string>
+    <string name="nav_close">Tutup</string>
+    <string name="text_menu">Produk Burgernezz</string>
+    <string name="exaQuantity">1</string>
+    <!--Navigation Header Product-->
+    <string name="nav_cart">Keranjang</string>
+    <string name="nav_tracking">Pesanan yang sudah dibeli</string>
+    <string name="nav_about">Mengenai Burgernezz</string>
+    <string name="nav_changeEmail">Ganti Email</string>
+    <!--Text Product-->
+    <string name="text_kebab">Kebab</string>
+    <string name="text_sosis">Sosis</string>
+    <string name="text_chickenburger">Chicken Burger</string>
+    <string name="text_beefburger">Beef Burger</string>
+    <string name="text_hotdog">Hotdog</string>
+    <!--Price Product-->
+    <string name="price_kebab">Rp 10.000</string>
+    <string name="price_sosis">Rp 8.000</string>
+    <string name="price_chickenburger">Rp 10.000</string>
+    <string name="price_beefburger">Rp 10.000</string>
+    <string name="price_hotdog">Rp 11.000</string>
+    <!--Product Description-->
+    <string name="desc_ingredient">Komposisi Produk</string>
+    <string name="desc_cheese"> - Keju</string>
+    <string name="desc_cheeseegg">
+        - Keju \n
+        - Telor
+    </string>
+    <string name="desc_kebab_ori">
+        - Tortilla/Kulit Kebab \n
+        - Daging Sapi \n
+        - Daun Selada \n
+        - Saus Tomat \n
+        - Saus Sambal \n
+        - Mayonaise
+    </string>
+    <string name="desc_kebab_keju">
+        - Tortilla/Kulit Kebab \n
+        - Daging Sapi \n
+        - Daun Selada \n
+        - Saus Tomat \n
+        - Saus Sambal \n
+        - Mayonaise \n
+        - Keju Chedar
+    </string>
+    <string name="desc_sosis">
+        - Sosis Sapi \n
+        - Mayonaise
+    </string>
+    <string name="desc_chickenburger">Rp 10.000</string>
+    <string name="desc_beefburger">Rp 10.000</string>
+    <string name="desc_hotdog">
+        - Roti Hotdog \n
+        - Sosis Sapi \n
+        - Mayonaise
+    </string>
+    <!--Product Page-->
+    <string name="btn_decrease">-</string>
+    <string name="btn_increase">+</string>
+    <string name="btn_order">Pesan</string>
+    <string name="product_desc">Deskripsi Produk</string>
+    <string name="product_spinner">Spinner Produk</string>
+    <string name="product_choose">Pilih Produk</string>
+    <string name="product_img">Gambar Produk</string>
+    <!--Cart Page-->
+    <string name="btn_orderagain">Pesan Lagi</string>
+    <string name="text_invoice">No Bon: </string>
+    <string name="input_invoice">1</string>
+    <string name="btn_deleteone">Hapus</string>
+    <string name="btn_deleteall">Hapus Semua</string>
+    <string name="text_total_price">Total Harga: </string>
+    <string name="input_total_price">Rp 10000</string>
+    <string name="btn_payment">Bayar</string>
+    <!--Dialogue Alert-->
+    <string name="dialogue_input">Masukan</string>
+    <string name="dialogue_cancel">Batalkan</string>
+    <string name="dialogue_warning">Email tidak diinput dengan benar</string>
+    <!--Purchase Page-->
+    <string name="inputEmail">Masukan Email</string>
+    <string name="inputNoHP">Masukan No HP</string>
+    <string name="inputAlamat">Masukan Alamat</string>
+    <string name="btnCurrentAlamat">Masukan Alamat Sekarang (GPS)</string>
+    <string name="textTotalPayment">Total Pembayaran: </string>
+    <string name="retrieveTotalPayment">Rp 0</string>
+    <string name="checkBandung">Tinggal di kota Bandung</string>
+    <string name="TXTappPayment">Pilih Metode Pembayaran</string>
+    <string name="appPayment1">COD</string>
+    <string name="appPayment2">Transfer Bank</string>
+    <string name="appPayment3">Payment3</string>
+    <string name="btn_confirmpayment">Lakukan Pembayaran</string>
+    <!--Payment ID-->
+    <string name="paymentdialogue_txtID">Bayar Transfer</string>
+    <string name="paymentdialogue_ID">ID Transfer</string>
+    <string name="paymentdialogue_exaTutorial">Transfer senilai Rp 10000 ke akun Bank BRI 111.111.111.111</string>
+    <string name="paymentdialogue_Tutorial1">Transfer senilai </string>
+    <string name="paymentdialogue_Tutorial2">ke akun Bank BRI 111.111.111.111 a/n  untuk mendapatkan ID Pembayaran.</string>
+    <string name="paymentdialogue_input">Bayar</string>
+    <string name="paymentdialogue_cancel">Batalkan</string>
+    <string name="paymentdialogue_warning">Pembayaran tidak diinput dengan benar</string>
+    <!--Tracking Page-->
+    <string name="inputInvoiceID">Pilih Bon</string>
+    <string name="inputSpinner">Data Bon disini</string>
+    <string name="btnReveal">Buka</string>
+    <string name="textTrackingID">No_Bon: </string>
+    <string name="exaTrackingID">1</string>
+    <string name="textTrackingEmail">Email: </string>
+    <string name="textTrackingPhone">No. Hp: </string>
+    <string name="textTrackingAddress">Alamat: </string>
+    <string name="textTrackingOrder">Keranjang: </string>
+    <string name="textTrackingTotalPrice">Total pembayaran: Rp </string>
+    <string name="textTrackingDateOrder">Tanggal pembelian: </string>
+    <string name="textTrackingPaymentTypes">Tipe Pembayaran: </string>
+    <string name="textTrackingPaymentID">ID Pembayaran: </string>
+    <string name="textTrackingStatus">Status pembelian: </string>
+    <string name="exaTrackingEmail">testing@example.com</string>
+    <string name="exaTrackingPhone">+6281234567890</string>
+    <string name="exaTrackingAddress">Jl. Contoh Alamat Palsu Blok A1 No 69 Kota Bandung, Jawa Barat</string>
+    <string name="exaTrackingTotalPrice">Rp 0</string>
+    <string name="exaTrackingDateOrder">15/07/2022</string>
+    <string name="exaTrackingPaymentTypes">COD</string>
+    <string name="exaTrackingPaymentID">0</string>
+    <string name="exaTrackingStatus">Sudah dibeli</string>
+    <!--About Page-->
+    <string name="title">Burgernezz</string>
+    <string name="about_burgernezz">
+        Burgernezz adalah salah satu bisnis makanan yang menjual berbagai makan, berupa
+        burger, sosis bakar, kebab, dan hotdog. Burgernezz berdiri sejak 2020 di Jl.
+        Sekelimus Utara.
+    </string>
+    <string name="other_availabilty">Tersedia juga di: </string>
+    <string name="GoFood">GoFood</string>
+    <string name="GrabFood">GrabFood</string>
+    <string name="shopeeFood">ShopeeFood</string>
+    <string name="copyright">Application is still in development</string>
+</resources>

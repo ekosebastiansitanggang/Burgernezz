@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textInvoiceID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textTrackingID"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/trackingID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exaTrackingID"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/textInvoiceID"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textTrackingEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textTrackingEmail"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInvoiceID" />
+
+        <TextView
+            android:id="@+id/trackingEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exaTrackingEmail"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/textTrackingEmail"
+            app:layout_constraintTop_toBottomOf="@+id/trackingID" />
+
+        <TextView
+            android:id="@+id/textTrackingPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textTrackingPhone"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTrackingEmail" />
+
+        <TextView
+            android:id="@+id/trackingPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exaTrackingPhone"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/textTrackingPhone"
+            app:layout_constraintTop_toBottomOf="@+id/trackingEmail" />
+
+        <TextView
+            android:id="@+id/textTrackingAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textTrackingAddress"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTrackingPhone" />
+
+        <TextView
+            android:id="@+id/trackingAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exaTrackingAddress"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTrackingAddress" />
+
+        <TextView
+            android:id="@+id/textTrackingTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textTrackingTotalPrice"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trackingAddress" />
+
+        <TextView
+            android:id="@+id/trackingTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exaTrackingTotalPrice"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/textTrackingTotalPrice"
+            app:layout_constraintTop_toBottomOf="@+id/trackingAddress" />
+
+        <TextView
+            android:id="@+id/textTrackingDateOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textTrackingDateOrder"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTrackingTotalPrice" />
+
+        <TextView
+            android:id="@+id/trackingDateOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exaTrackingDateOrder"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/textTrackingDateOrder"
+            app:layout_constraintTop_toBottomOf="@+id/trackingTotalPrice" />
+
+        <TextView
+            android:id="@+id/textTrackingPaymentTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textTrackingPaymentTypes"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTrackingDateOrder" />
+
+        <TextView
+            android:id="@+id/trackingPaymentTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exaTrackingPaymentTypes"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/textTrackingPaymentTypes"
+            app:layout_constraintTop_toBottomOf="@+id/trackingDateOrder" />
+
+        <TextView
+            android:id="@+id/textTrackingPaymentID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textTrackingPaymentID"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTrackingPaymentTypes" />
+
+        <TextView
+            android:id="@+id/trackingPaymentID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exaTrackingPaymentID"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/textTrackingPaymentID"
+            app:layout_constraintTop_toBottomOf="@+id/trackingPaymentTypes" />
+
+        <TextView
+            android:id="@+id/textTrackingStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textTrackingStatus"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTrackingPaymentID" />
+
+        <TextView
+            android:id="@+id/trackingStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exaTrackingStatus"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/textTrackingStatus"
+            app:layout_constraintTop_toBottomOf="@+id/trackingPaymentID" />
+
+        <TextView
+            android:id="@+id/textTrackingOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textTrackingOrder"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTrackingStatus" />
+
+        <Button
+            android:id="@+id/openInvoiceCartListView"
+            android:layout_width="68dp"
+            android:layout_height="48sp"
+            android:text="@string/btnReveal"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@id/trackingStatus"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
